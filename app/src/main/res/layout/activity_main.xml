@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/broadcastme_wallpaper"
+    android:padding="10dp"
+    tools:context="com.broadcastme.cosc412.broadcastme.MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Broadcast Me"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="237dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/colorPrimaryPartiallyTransparent2"
+        android:onClick="sendMessage"
+        android:paddingTop="0dp"
+        android:text="@string/login"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="133dp"
+        android:backgroundTint="@color/colorPrimaryPartiallyTransparent"
+        android:text="@string/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</LinearLayout>

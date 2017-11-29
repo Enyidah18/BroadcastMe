@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Broadcast Me</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+
+    <string-array name="create_broadcast_category_array">
+        <item>Emergency-Health</item>
+        <item>Emergency-Safety</item>
+        <item>Help-Vehicle</item>
+        <item>Help-Directions</item>
+        <item>Help-General</item>
+        <item>Question</item>
+        <item>Advice</item>
+        <item>Other</item>
+    </string-array>
+</resources>
